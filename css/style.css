@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Roboto:wght@300;700&display=swap');
+:root{
+	--bg-body: #F8F9FB;
+	--color-azul: #00ACB2;
+	--color-classes: #F8F9FB;
+	--color-titulo-classes: #00ACB2;
+}
+body{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	background-color: var(--bg-body);
+	color: #333;
+	font-family: 'Hind', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+header{
+	background-color: var(--bg-body);
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+#hero-title{
+	background-color: #25282F;
+	color: #fff;
+	padding: 55px 0;
+}
+
+#hero-title p{
+	padding: 40px 0;
+}
+
+#hero-title .btn-light{
+	font-family: 'Hind', sans-serif;
+    font-size: 14px;
+	color: #00ACB2;
+    font-weight: 700;
+    padding: 14px 30px;
+}
+
+#hero-title .btn-info{
+	font-family: 'Hind', sans-serif;
+    font-size: 14px;
+	color: #fff;
+    font-weight: 700;
+	padding: 14px 20px;
+}
+
+#Our-Classes{
+	background-color: var(--color-classes);
+	padding:5%;
+}
+#Our-Classes h4{
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#Our-Classes .card img{
+	width: 120px;
+	margin: auto;
+}
+#Our-Classes .card{
+	text-align: center;
+	padding: 20px 15px;
+}
+#Our-Classes .card p{
+	color: var(--color-titulo-classes);
+	font-size: 30px;
+}
+#cta-gym{
+	background-color: #25282F;
+	padding: 10%;
+}
+
+#cta-gym p{
+	display: inline;
+	padding-left: 80px;
+}
+
+.btn-gym{
+	border-radius: 5%;
+	padding: 20px 25px;
+	background-color: crimson;
+	font-size: 14px;
+	color: #fff;
+}
+.btn-gym:hover{
+	background-color: #fff;
+	color: #666;
+}
+
+
+#cta-gym p{
+	color: #fff;
+	font-size: 36px;
+	font-family:'Hind', sans-serif;
+}
+#Fitness {
+	background-image: url("../img/health-fitness.jpg");
+	background-position: top;
+	background-size: cover;
+	
+}
+
+#Fitness .card-title {
+	color: var(--subtitulos) !important;
+	font-size: 40px;
+	
+}
+
+#Fitness .card-subtitle {
+	color: var(--color-azul);
+}
+
+
+.overlay {
+	padding: 20% 0%;
+	
+}
+
+#Fitness .card.w-80{
+	background-color: rgba(255,255,255,0.61);
+	border: none;
+	
+}
+#trainers {
+	background-color: #25282F;
+	color: #fff;
+	text-align: center;
+	padding: 60px;
+	border-image-width: 20px;
+}
+#subscribe{
+	text-align: center
+}
+
+#subscribe hr{
+	width: 500px;
+	margin: auto;
+	margin-bottom: 30px;
+	border-color: #aaa;
+	opacity: 1;
+}
+
+#subscribe h2 {
+	padding: 60px;
+	text-align: center;
+}
+
+#subscribe .btn-info{
+	font-family: 'Hind', sans-serif;
+    font-size: 14px;
+	color: #fff;
+    font-weight: 700;
+    padding: 14px 35px;
+}
+
+#subscribe p{
+	color: #3c3838;
+}
+footer{
+	background-color: var(--bg-body);
+	color: #333;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
